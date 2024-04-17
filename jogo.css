@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+}
+
+
+.jogo {
+    margin: 80px;
+    text-align: center;
+}
+
+.controle {
+    background-color: #008CBA;
+    border: 1px #000;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px ;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+
+.control:hover {
+    background-color: lightblue;
+}
+
+
+
+.box {
+    margin: auto;
+    border: 1px solid #000;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 250px;
+    left: 400px;
+}
+
+.container {
+
+    border: 1px solid #000;
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    margin-top: 90px;
+}
+
+/** Top e Left usados para movimentar o quadradinho vermelho **/
+
